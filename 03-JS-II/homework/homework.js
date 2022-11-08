@@ -73,7 +73,7 @@ function colors(color) {
       return 'This is green';
       break;
     case 'orange':
-      return 'This ir orange';
+      return 'This is orange';
       break;
     default:
       return 'Color not found'
