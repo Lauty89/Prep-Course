@@ -234,6 +234,21 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var mickey = [];
+  var donald = numero;
+  for(let i = 0; i < 10; i++){
+    donald = donald + 2;
+    if(donald === i){
+      break;
+    } else {
+       mickey.push(donald);
+    }
+  }
+  if (mickey.length < 10){
+    return 'Se interrumpió la ejecución';
+  } else if (mickey.length === 10){
+    return mickey;
+  }
 }
 
 
